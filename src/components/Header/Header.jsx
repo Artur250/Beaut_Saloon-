@@ -7,19 +7,21 @@ class Header extends Component {
         return (
             <div className='container'>
                 <div className='box'>
-                <div className='label'>
-                    <Link to="/" className='title'><span>Darlen</span></Link>
-                </div>
+                {/* <div className='label'> */}
+                    
+                {/* </div> */}
 
                 <div className='menu'>
-                    <Link to="/Specialists" className='Link'>Specialists</Link>
-                    <Link to="/Reviews" className='Link'>Reviews</Link>
+                <Link to="/" className='title'><span>Darlen</span></Link>
+                    <Link to="/Specialists" className='link'>Specialists</Link>
+                    <Link to="/Reviews" className='link'>Reviews</Link>
                    <div className='button'>
                     <Link to="/Registr"><button className='btn'>Registration</button></Link>
                    </div> 
                 </div>
                 </div>
             </div>
+            // Registration
         );
     }
 }
