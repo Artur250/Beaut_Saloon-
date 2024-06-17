@@ -1,4 +1,4 @@
-import{ React } from 'react'
+import{ React} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
@@ -10,8 +10,11 @@ import Specialists from './pages/Specialists/Specialists';
 import Registr from './pages/Registr/Registr';
 
 function App() {
+
   return (
+   
     <div className="App">
+
       <Router>
         <Header />
         <Routes>
@@ -21,7 +24,10 @@ function App() {
           <Route path='/Registr' element={<Registr/>}/>
         </Routes>
       </Router>
+    
+     
     </div>
+
   );
 }
 
